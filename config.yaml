@@ -1,0 +1,67 @@
+# ─────────────────────────────────────────────
+#  PaperScan — Configuration
+# ─────────────────────────────────────────────
+
+email:
+  lookback_days: 7          # how many days back each run searches
+  max_results_per_source: 100 # per source, before deduplication
+
+# arXiv categories to search
+arxiv_categories:
+  - eess.IV   # Image and Video Processing
+  - cs.LG     # Machine Learning
+
+# ── MEDICAL TOPICS ───────────────────────────
+# Papers must match at least one term from this group
+medical_topics:
+  - "neuro-ophthalmology"
+  - "neuro ophthalmology"
+  - "ophthalmology"
+  - "ophthalmic"
+  - "fundus"
+  - "fundus image"
+  - "fundus photograph"
+  - "retinal fundus"
+  - "retinal image"
+  - "retinal photograph"
+  - "retina"
+  - "OCT"
+  - "optical coherence tomography"
+  - "OCTA"
+  - "optical coherence tomography angiography"
+  - "visual field"
+  - "MRI"
+  - "magnetic resonance imaging"
+  - "glaucoma"
+  - "diabetic retinopathy"
+  - "macular degeneration"
+  - "optic disc"
+  - "optic nerve"
+  - "papilledema"
+  - "retinopathy"
+
+# ── AI / ML METHODS ──────────────────────────
+# Papers must match at least one term from this group
+ai_methods:
+  - "deep learning"
+  - "machine learning"
+  - "artificial intelligence"
+  - "neural network"
+  - "convolutional neural network"
+  - "CNN"
+  - "transformer"
+  - "segmentation"
+  - "classification"
+  - "detection"
+  - "AI-based"
+  - "AI based"
+  - "DL-based"
+  - "DL based"
+  - "automated"
+  - "computer-aided"
+  - "computer aided"
+  - "foundation model"
+  - "vision transformer"
+  - "ViT"
+  - "self-supervised"
+  - "semi-supervised"
