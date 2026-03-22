@@ -46,7 +46,7 @@ GMAIL_RECIPIENT=email_address
 > **How to get a Gmail App Password:**
 > 1. Go to [myaccount.google.com/security](https://myaccount.google.com/security) → enable 2-Step Verification
 > 2. Go to [myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords)
-> 3. Create a new app password (name it "ophtho-tracker")
+> 3. Create a new app password (name it "Paper-Digest")
 > 4. Copy the 16-character password into `.env`
 
 ### 4. (Optional) Customize keywords
